@@ -1,0 +1,2 @@
+export const TOGGLE_SIDE_MENU = 'TOGGLE_SIDE_MENU';
+export const TOGGLE_USER_MENU = 'TOGGLE_USER_MENU';
