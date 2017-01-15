@@ -1,9 +1,9 @@
 import * as types from '../constants/actionTypes';
 
-export function toggleSideMenu(sideMenuOpen){
+export const toggleSideMenu = (sideMenuOpen) => {
     return {type: types.TOGGLE_SIDE_MENU, sideMenuOpen};
-}
+};
 
-export function toggleUserMenu(userMenuOpen){
+export const toggleUserMenu = (userMenuOpen) => {
     return {type: types.TOGGLE_USER_MENU, userMenuOpen};
-}
+};

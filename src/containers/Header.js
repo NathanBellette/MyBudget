@@ -18,7 +18,6 @@ class Header extends Component {
                         toggleUserMenu={this.props.actions.toggleUserMenu}
                         sideMenuOpen={this.props.sideMenuOpen}
                         userMenuOpen={this.props.userMenuOpen}/>
-                <UserMenu />
             </div>
         );
     }
